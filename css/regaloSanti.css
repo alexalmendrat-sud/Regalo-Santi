@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(#fbc2eb, #a6c1ee);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.titulo {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    color: #1f1618;
+}
+
+.card {
+    background: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+    margin: 15px 0;
+}
+
+.galeria {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.galeria img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    background: #ff6f91;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background: #ff4f7a;
+}
+
+/* Emojis desde CSS */
+.bienvenida .titulo::after { content: " 🎂"; }
+.recuerdo .titulo::after { content: " 💕"; }
+.final .titulo::after { content: " 🎉"; }
+
+
+.saldo {
+    font-size: 32px;
+    color: #ff6f91;
+}
+
+.Teamo {
+    font-size: 32px;
+    color: #ff6f91;
+}
+
+.video {
+    width: 100%;
+    border-radius: 15px;
+    margin: 15px 0;
+}
